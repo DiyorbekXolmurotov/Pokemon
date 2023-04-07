@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+@media (max-width: 684px) {
+  .container {
+    justify-content: center;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFD845;
+}
+
+.box-inputs {
+  border-radius: 10px;
+  width: 170px;
+  height: 35px;
+  border: 1px solid black;
+  padding-left: 20px;
+}
+
+li {
+  width: 260px;
+  height: 280px;
+  list-style-type: none;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 20px;
+}
+
+form {
+  margin-bottom: 100px;
+}
+
+.box-btn {
+  border: 1px solid black;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+}
+@media (max-width: 1343px) {
+  .box-btn {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 684px) {
+  .m-5 {
+    width: 350px;
+  }
+}
+
+.height {
+  margin-right: 20px;
+  padding-left: 70px;
+}
+
+.sniper {
+  margin-left: 50px;
+  width: 150px;
+}
+
+.jakiro {
+  padding-top: 15px;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+.title_five {
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
